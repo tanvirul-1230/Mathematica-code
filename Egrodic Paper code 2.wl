@@ -1,12 +1,11 @@
 (* ::Package:: *)
 
 (* ======================================================================= *)
-(* FAST Q1 FIGURE GENERATOR -- PARALLEL + TRICOMI-U + NR100-STABLE RIS      *)
 (*                                                                         *)
-(* Lines   = YOUR analytical closed forms (unchanged):                     *)
+(* Lines   = Analytical closed forms                                       *)
 (*           RIS   : two-branch Erlang closed form                         *)
 (*           Relay : T-series Tricomi-U/Tricomi-U-equivalent closed form               *)
-(* Markers = MONTE CARLO ON THE PLAN PDF MODEL (unchanged):                *)
+(* Markers = MONTE CARLO                                                   *)
 (*           RIS   : Gamma amplitude A, gamma = rho A^2                     *)
 (*           Relay : exponential hops, gamma = g1 g2/(g1+g2), 1/2 pre-log   *)
 (*                                                                         *)
@@ -14,7 +13,6 @@
 (* Assisted Wireless Systems and Comparison With Relaying," IEEE Access.    *)
 (*                                                                         *)
 (* HOW TO TUNE: edit the COMMON block and the THREE FIGURE CONFIG blocks.   *)
-(* Each figure is fully independent. Nothing else needs editing.           *)
 (* ======================================================================= *)
 
 ClearAll["Global`*"];
